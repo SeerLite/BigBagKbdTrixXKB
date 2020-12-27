@@ -883,6 +883,17 @@ xkb_symbols "tarmak4__etro" {
 // 2006-01-01 Shai Coleman, http://colemak.com/
 // This is the Curl-DH Colemak ergo mod by Stevep99 and DreymaR.
 partial alphanumeric_keys
+xkb_symbols "cmk_dh" {
+    include "colemak(cmk)"
+    include "colemak(cmk_dh)"
+    name[Group1]= "English/Intl (Colemak, Curl-DH ergo)";
+};
+
+// Colemak-Curl(DH) symbols for xkb on X.Org Server 7.x
+// 2015-01-18 OEystein Bech "DreymaR" Gadmar
+// 2006-01-01 Shai Coleman, http://colemak.com/
+// This is the Curl-DH Colemak ergo mod by Stevep99 and DreymaR.
+partial alphanumeric_keys
 xkb_symbols "cmk_ed_dh" {
     include "colemak(cmk_ed)"
     include "colemak(cmk_ed_dh)"

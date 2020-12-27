@@ -1456,6 +1456,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>cmk_dh</name>
+            <description>English (Colemak, Curl-DH ergo mod)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>cmk_ed_mirror</name>
             <description>English (Colemak[eD], mirrored)</description>
           </configItem>

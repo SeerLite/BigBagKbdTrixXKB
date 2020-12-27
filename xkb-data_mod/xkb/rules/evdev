@@ -966,13 +966,15 @@
   $threelevellayouts	grp:alts_toggle = +level3(ralt_switch_for_alts_toggle)
   *			misc:typo 	= +typo(base)
   *			misc:extend 	= +extend(basic)
-  *			misc:cmk_curl_dh	= +colemak(cmk_ed_dh)
+  *			misc:cmk_dh	= +colemak(cmk_dh)
+  *			misc:cmk_ed_dh	= +colemak(cmk_ed_dh)
 
 ! layout[1]	option	=	symbols
   $threelevellayouts	grp:alts_toggle = +level3(ralt_switch_for_alts_toggle):1
   *			misc:typo 	= +typo(base):1
   *			misc:extend 	= +extend(basic):1
-  *			misc:cmk_curl_dh	= +colemak(cmk_ed_dh):1
+  *			misc:cmk_dh	= +colemak(cmk_dh):1
+  *			misc:cmk_ed_dh	= +colemak(cmk_ed_dh):1
 
 ! layout[2]	option	=	symbols
   $threelevellayouts	grp:alts_toggle = +level3(ralt_switch_for_alts_toggle):2
