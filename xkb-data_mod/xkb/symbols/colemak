@@ -173,13 +173,13 @@ xkb_symbols "cmk_symbols" {
     key <AE08> { [            8,     asterisk,           thorn,            THORN ] };
     key <AE09> { [            9,    parenleft,  leftsinglequotemark,  leftdoublequotemark ] };
     key <AE10> { [            0,   parenright, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
     key <AE12> { [        equal,         plus,        multiply,         division ] };
     //
     key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
     //
-    key <AC11> { [        minus,   underscore,          endash,           emdash ] };
+    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
     //
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
